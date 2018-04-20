@@ -1,0 +1,29 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <script>
+            function btnClick1() {
+                
+                try    {
+                    starcorExt.sayGoodbye();
+                }
+                catch(exception){
+                    alert(exception);
+                }
+                
+                window.webkit.messageHandlers.showMobile.postMessage(null)
+            }
+        </script>
+        <form>
+            
+            <button type='button' onclick='alert("Alert!")'>Alert!</button>
+            
+            <button type='button' onclick='sayHello()'>Say Hello!</button>
+            
+            <button type='button' onclick='btnClick1();'>Say Goodbye!</button>
+            
+        </form>
+        
+    </body>
+</html>

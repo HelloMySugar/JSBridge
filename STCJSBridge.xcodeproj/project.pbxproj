@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		730FE8E11ED3D52200EF58E8 /* STCBridgeMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 730FE8E01ED3D52200EF58E8 /* STCBridgeMessage.m */; };
+		730FE8E41ED3DC2F00EF58E8 /* XXJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 730FE8E31ED3DC2F00EF58E8 /* XXJSONSerialization.m */; };
+		732C75031ED7CE9F00003936 /* STCHandlerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 732C75021ED7CE9F00003936 /* STCHandlerManager.m */; };
+		7353C6E51ED5265F00407C25 /* STCWKJavascriptInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 7353C6E41ED5265F00407C25 /* STCWKJavascriptInterface.m */; };
+		735E2C4E1EEFD804006D2738 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7349AA531ED4172400423B57 /* WebKit.framework */; };
+		7375D0431ED7BBE40078787A /* UIWebView+STCJSContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 7375D0421ED7BBE40078787A /* UIWebView+STCJSContext.m */; };
+		73813AF01ED919EA00F9199B /* starcor.js in Resources */ = {isa = PBXBuildFile; fileRef = 73813AED1ED919EA00F9199B /* starcor.js */; };
+		73813AF11ED919EA00F9199B /* starcor.webview_v2.js in Resources */ = {isa = PBXBuildFile; fileRef = 73813AEE1ED919EA00F9199B /* starcor.webview_v2.js */; };
+		73813AF21ED919EA00F9199B /* test_demo.html in Resources */ = {isa = PBXBuildFile; fileRef = 73813AEF1ED919EA00F9199B /* test_demo.html */; };
+		738407F61ED6DCD700D3457D /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 738407F51ED6DCD700D3457D /* index.html */; };
+		738407FE1ED6EAE900D3457D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738407FD1ED6EAE900D3457D /* UIKit.framework */; };
+		738408001ED6EAF100D3457D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738407FF1ED6EAF100D3457D /* Foundation.framework */; };
+		738408021ED6EAF700D3457D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738408011ED6EAF700D3457D /* CoreGraphics.framework */; };
+		73DABA7E1ED2CC3A00F597DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73DABA7D1ED2CC3A00F597DB /* main.m */; };
+		73DABA811ED2CC3A00F597DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73DABA801ED2CC3A00F597DB /* AppDelegate.m */; };
+		73DABA841ED2CC3A00F597DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73DABA831ED2CC3A00F597DB /* ViewController.m */; };
+		73DABA871ED2CC3A00F597DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73DABA851ED2CC3A00F597DB /* Main.storyboard */; };
+		73DABA891ED2CC3A00F597DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73DABA881ED2CC3A00F597DB /* Assets.xcassets */; };
+		73DABA8C1ED2CC3A00F597DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73DABA8A1ED2CC3A00F597DB /* LaunchScreen.storyboard */; };
+		73DABA951ED2CC6400F597DB /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73DABA941ED2CC6400F597DB /* JavaScriptCore.framework */; };
+		73DABAAA1ED2E58700F597DB /* STCBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 73DABAA21ED2E58700F597DB /* STCBridge.m */; };
+		73DABAAB1ED2E58700F597DB /* STCBridgeImplement.m in Sources */ = {isa = PBXBuildFile; fileRef = 73DABAA51ED2E58700F597DB /* STCBridgeImplement.m */; };
+		73FBEAA01ED32D540081A262 /* STCWebViewBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FBEA9F1ED32D540081A262 /* STCWebViewBridge.m */; };
+		73FBEAA31ED32D600081A262 /* STCWKWebViewBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FBEAA21ED32D600081A262 /* STCWKWebViewBridge.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		730FE8DF1ED3D52200EF58E8 /* STCBridgeMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCBridgeMessage.h; sourceTree = "<group>"; };
+		730FE8E01ED3D52200EF58E8 /* STCBridgeMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCBridgeMessage.m; sourceTree = "<group>"; };
+		730FE8E21ED3DC2F00EF58E8 /* XXJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXJSONSerialization.h; sourceTree = "<group>"; };
+		730FE8E31ED3DC2F00EF58E8 /* XXJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXJSONSerialization.m; sourceTree = "<group>"; };
+		732C75011ED7CE9F00003936 /* STCHandlerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCHandlerManager.h; sourceTree = "<group>"; };
+		732C75021ED7CE9F00003936 /* STCHandlerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCHandlerManager.m; sourceTree = "<group>"; };
+		7349AA531ED4172400423B57 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		7353C6E31ED5265F00407C25 /* STCWKJavascriptInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCWKJavascriptInterface.h; sourceTree = "<group>"; };
+		7353C6E41ED5265F00407C25 /* STCWKJavascriptInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCWKJavascriptInterface.m; sourceTree = "<group>"; };
+		7375D0411ED7BBE40078787A /* UIWebView+STCJSContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+STCJSContext.h"; sourceTree = "<group>"; };
+		7375D0421ED7BBE40078787A /* UIWebView+STCJSContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+STCJSContext.m"; sourceTree = "<group>"; };
+		73813AED1ED919EA00F9199B /* starcor.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = starcor.js; sourceTree = "<group>"; };
+		73813AEE1ED919EA00F9199B /* starcor.webview_v2.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = starcor.webview_v2.js; sourceTree = "<group>"; };
+		73813AEF1ED919EA00F9199B /* test_demo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test_demo.html; sourceTree = "<group>"; };
+		738407E51ED6B77500D3457D /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		738407E71ED6BA7F00D3457D /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		738407E91ED6BB6100D3457D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		738407EB1ED6BB6B00D3457D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		738407F51ED6DCD700D3457D /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		738407FD1ED6EAE900D3457D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		738407FF1ED6EAF100D3457D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		738408011ED6EAF700D3457D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		73DABA791ED2CC3A00F597DB /* STCJSBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STCJSBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73DABA7D1ED2CC3A00F597DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		73DABA7F1ED2CC3A00F597DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		73DABA801ED2CC3A00F597DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		73DABA821ED2CC3A00F597DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		73DABA831ED2CC3A00F597DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		73DABA861ED2CC3A00F597DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		73DABA881ED2CC3A00F597DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		73DABA8B1ED2CC3A00F597DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		73DABA8D1ED2CC3A00F597DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73DABA941ED2CC6400F597DB /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		73DABAA11ED2E58700F597DB /* STCBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCBridge.h; sourceTree = "<group>"; };
+		73DABAA21ED2E58700F597DB /* STCBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCBridge.m; sourceTree = "<group>"; };
+		73DABAA31ED2E58700F597DB /* STCBridgeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCBridgeDelegate.h; sourceTree = "<group>"; };
+		73DABAA41ED2E58700F597DB /* STCBridgeImplement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCBridgeImplement.h; sourceTree = "<group>"; };
+		73DABAA51ED2E58700F597DB /* STCBridgeImplement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCBridgeImplement.m; sourceTree = "<group>"; };
+		73FBEA9E1ED32D540081A262 /* STCWebViewBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCWebViewBridge.h; sourceTree = "<group>"; };
+		73FBEA9F1ED32D540081A262 /* STCWebViewBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCWebViewBridge.m; sourceTree = "<group>"; };
+		73FBEAA11ED32D600081A262 /* STCWKWebViewBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCWKWebViewBridge.h; sourceTree = "<group>"; };
+		73FBEAA21ED32D600081A262 /* STCWKWebViewBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCWKWebViewBridge.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73DABA761ED2CC3A00F597DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				735E2C4E1EEFD804006D2738 /* WebKit.framework in Frameworks */,
+				738408021ED6EAF700D3457D /* CoreGraphics.framework in Frameworks */,
+				738408001ED6EAF100D3457D /* Foundation.framework in Frameworks */,
+				738407FE1ED6EAE900D3457D /* UIKit.framework in Frameworks */,
+				73DABA951ED2CC6400F597DB /* JavaScriptCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		738407F01ED6CAC100D3457D /* webview_demo */ = {
+			isa = PBXGroup;
+			children = (
+				73813AED1ED919EA00F9199B /* starcor.js */,
+				73813AEE1ED919EA00F9199B /* starcor.webview_v2.js */,
+				73813AEF1ED919EA00F9199B /* test_demo.html */,
+				738407F51ED6DCD700D3457D /* index.html */,
+			);
+			path = webview_demo;
+			sourceTree = "<group>";
+		};
+		73DABA701ED2CC3A00F597DB = {
+			isa = PBXGroup;
+			children = (
+				73DABA7B1ED2CC3A00F597DB /* STCJSBridge */,
+				73DABA7A1ED2CC3A00F597DB /* Products */,
+				73DABA931ED2CC6400F597DB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		73DABA7A1ED2CC3A00F597DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73DABA791ED2CC3A00F597DB /* STCJSBridge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73DABA7B1ED2CC3A00F597DB /* STCJSBridge */ = {
+			isa = PBXGroup;
+			children = (
+				738407F01ED6CAC100D3457D /* webview_demo */,
+				73DABAA01ED2E58700F597DB /* STCWebView */,
+				73DABA7F1ED2CC3A00F597DB /* AppDelegate.h */,
+				73DABA801ED2CC3A00F597DB /* AppDelegate.m */,
+				73DABA821ED2CC3A00F597DB /* ViewController.h */,
+				73DABA831ED2CC3A00F597DB /* ViewController.m */,
+				73DABA851ED2CC3A00F597DB /* Main.storyboard */,
+				73DABA881ED2CC3A00F597DB /* Assets.xcassets */,
+				73DABA8A1ED2CC3A00F597DB /* LaunchScreen.storyboard */,
+				73DABA8D1ED2CC3A00F597DB /* Info.plist */,
+				73DABA7C1ED2CC3A00F597DB /* Supporting Files */,
+			);
+			path = STCJSBridge;
+			sourceTree = "<group>";
+		};
+		73DABA7C1ED2CC3A00F597DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				73DABA7D1ED2CC3A00F597DB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		73DABA931ED2CC6400F597DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				738408011ED6EAF700D3457D /* CoreGraphics.framework */,
+				738407FF1ED6EAF100D3457D /* Foundation.framework */,
+				738407FD1ED6EAE900D3457D /* UIKit.framework */,
+				738407EB1ED6BB6B00D3457D /* CFNetwork.framework */,
+				738407E91ED6BB6100D3457D /* SystemConfiguration.framework */,
+				738407E71ED6BA7F00D3457D /* Photos.framework */,
+				738407E51ED6B77500D3457D /* AssetsLibrary.framework */,
+				7349AA531ED4172400423B57 /* WebKit.framework */,
+				73DABA941ED2CC6400F597DB /* JavaScriptCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73DABAA01ED2E58700F597DB /* STCWebView */ = {
+			isa = PBXGroup;
+			children = (
+				7375D0411ED7BBE40078787A /* UIWebView+STCJSContext.h */,
+				7375D0421ED7BBE40078787A /* UIWebView+STCJSContext.m */,
+				730FE8E21ED3DC2F00EF58E8 /* XXJSONSerialization.h */,
+				730FE8E31ED3DC2F00EF58E8 /* XXJSONSerialization.m */,
+				73DABAA11ED2E58700F597DB /* STCBridge.h */,
+				73DABAA21ED2E58700F597DB /* STCBridge.m */,
+				73DABAA31ED2E58700F597DB /* STCBridgeDelegate.h */,
+				73FBEA9E1ED32D540081A262 /* STCWebViewBridge.h */,
+				73FBEA9F1ED32D540081A262 /* STCWebViewBridge.m */,
+				73FBEAA11ED32D600081A262 /* STCWKWebViewBridge.h */,
+				73FBEAA21ED32D600081A262 /* STCWKWebViewBridge.m */,
+				7353C6E31ED5265F00407C25 /* STCWKJavascriptInterface.h */,
+				7353C6E41ED5265F00407C25 /* STCWKJavascriptInterface.m */,
+				73DABAA41ED2E58700F597DB /* STCBridgeImplement.h */,
+				73DABAA51ED2E58700F597DB /* STCBridgeImplement.m */,
+				730FE8DF1ED3D52200EF58E8 /* STCBridgeMessage.h */,
+				730FE8E01ED3D52200EF58E8 /* STCBridgeMessage.m */,
+				732C75011ED7CE9F00003936 /* STCHandlerManager.h */,
+				732C75021ED7CE9F00003936 /* STCHandlerManager.m */,
+			);
+			path = STCWebView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73DABA781ED2CC3A00F597DB /* STCJSBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73DABA901ED2CC3A00F597DB /* Build configuration list for PBXNativeTarget "STCJSBridge" */;
+			buildPhases = (
+				73DABA751ED2CC3A00F597DB /* Sources */,
+				73DABA761ED2CC3A00F597DB /* Frameworks */,
+				73DABA771ED2CC3A00F597DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STCJSBridge;
+			productName = STCJSBridge;
+			productReference = 73DABA791ED2CC3A00F597DB /* STCJSBridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73DABA711ED2CC3A00F597DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = aby.zhou;
+				TargetAttributes = {
+					73DABA781ED2CC3A00F597DB = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 2D38M8JLHC;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 73DABA741ED2CC3A00F597DB /* Build configuration list for PBXProject "STCJSBridge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 73DABA701ED2CC3A00F597DB;
+			productRefGroup = 73DABA7A1ED2CC3A00F597DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73DABA781ED2CC3A00F597DB /* STCJSBridge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73DABA771ED2CC3A00F597DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73DABA8C1ED2CC3A00F597DB /* LaunchScreen.storyboard in Resources */,
+				73DABA891ED2CC3A00F597DB /* Assets.xcassets in Resources */,
+				73813AF11ED919EA00F9199B /* starcor.webview_v2.js in Resources */,
+				738407F61ED6DCD700D3457D /* index.html in Resources */,
+				73813AF21ED919EA00F9199B /* test_demo.html in Resources */,
+				73DABA871ED2CC3A00F597DB /* Main.storyboard in Resources */,
+				73813AF01ED919EA00F9199B /* starcor.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73DABA751ED2CC3A00F597DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730FE8E41ED3DC2F00EF58E8 /* XXJSONSerialization.m in Sources */,
+				7353C6E51ED5265F00407C25 /* STCWKJavascriptInterface.m in Sources */,
+				73DABA841ED2CC3A00F597DB /* ViewController.m in Sources */,
+				73FBEAA31ED32D600081A262 /* STCWKWebViewBridge.m in Sources */,
+				7375D0431ED7BBE40078787A /* UIWebView+STCJSContext.m in Sources */,
+				732C75031ED7CE9F00003936 /* STCHandlerManager.m in Sources */,
+				73FBEAA01ED32D540081A262 /* STCWebViewBridge.m in Sources */,
+				73DABAAA1ED2E58700F597DB /* STCBridge.m in Sources */,
+				730FE8E11ED3D52200EF58E8 /* STCBridgeMessage.m in Sources */,
+				73DABA811ED2CC3A00F597DB /* AppDelegate.m in Sources */,
+				73DABA7E1ED2CC3A00F597DB /* main.m in Sources */,
+				73DABAAB1ED2E58700F597DB /* STCBridgeImplement.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		73DABA851ED2CC3A00F597DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73DABA861ED2CC3A00F597DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		73DABA8A1ED2CC3A00F597DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73DABA8B1ED2CC3A00F597DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		73DABA8E1ED2CC3A00F597DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		73DABA8F1ED2CC3A00F597DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73DABA911ED2CC3A00F597DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2D38M8JLHC;
+				INFOPLIST_FILE = STCJSBridge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gz.appsSTCJSBridge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "995f490f-2f8d-4901-a0de-f31106e10f2c";
+				PROVISIONING_PROFILE_SPECIFIER = guangzhou_dev;
+			};
+			name = Debug;
+		};
+		73DABA921ED2CC3A00F597DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 2D38M8JLHC;
+				INFOPLIST_FILE = STCJSBridge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gz.appsSTCJSBridge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "68390894-eb30-4c2e-9ec5-569e0dd321dc";
+				PROVISIONING_PROFILE_SPECIFIER = guangzhou_dis;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73DABA741ED2CC3A00F597DB /* Build configuration list for PBXProject "STCJSBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73DABA8E1ED2CC3A00F597DB /* Debug */,
+				73DABA8F1ED2CC3A00F597DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73DABA901ED2CC3A00F597DB /* Build configuration list for PBXNativeTarget "STCJSBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73DABA911ED2CC3A00F597DB /* Debug */,
+				73DABA921ED2CC3A00F597DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73DABA711ED2CC3A00F597DB /* Project object */;
+}
