@@ -2,8 +2,8 @@
 //  XXJSONSerialization.m
 //  LogCatch
 //
-//  Created by 周强 on 15/4/14.
-//  Copyright (c) 2015年 周强. All rights reserved.
+//  Created by HHH on 15/4/14.
+//  Copyright (c) 2015年 HHH. All rights reserved.
 //
 
 #import "XXJSONSerialization.h"

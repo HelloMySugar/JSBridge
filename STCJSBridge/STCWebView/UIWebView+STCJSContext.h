@@ -2,8 +2,8 @@
 //  UIWebView+STCJSContext.h
 //  STCJSBridge
 //
-//  Created by Aby.zhou on 2017/5/26.
-//  Copyright © 2017年 aby.zhou. All rights reserved.
+//  Created by HHH on 2017/5/26.
+//  Copyright © 2017年 HHH. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
